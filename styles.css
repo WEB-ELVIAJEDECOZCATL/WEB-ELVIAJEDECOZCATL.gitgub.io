@@ -1,0 +1,206 @@
+/* Resetear estilos por defecto del navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el logotipo */
+.logo {
+  text-align: center;
+  background-color: #212121;
+}
+
+    .logo img {
+        height: 125px;
+    }
+
+/* Estilos para la navegación */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 15px 0;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #DDDDDD;
+}
+
+/*Estilos para la navegacion footer*/
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px 0;
+}
+    .navbar2 a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 18px;
+    }
+.navbar2 a:hover {
+    color: #DDDDDD;
+}
+
+
+/* Estilos para el encabezado */
+.header {
+    max-width: 1700px;
+    background-image: url('\Users\User\Documents\Pag Web Videojuego\Img\Bridge.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: black;
+    text-align: start;
+    margin: 0 auto;
+    padding: 200px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    filter: sepia(30%) brightness(90%) contrast(120%);
+    background-blend-mode: overlay;
+    background-color: rgba(255, 235, 205, 0.3); /* Color beige claro para dar un aspecto cálido */
+}
+
+.header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el contenido */
+.content {
+    background-image: url('\Users\User\Documents\Pag Web Videojuego\Img\Volcano.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.content1{
+    background-color: rgb(225, 165, 117);
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content h2, .content1 h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p, .content1 p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Grid item */
+.section {
+    background-color:#53644d;
+    max-width: 1700px;
+    margin: 0 auto;
+    text-align: center;
+  padding: 20px 0;
+}
+
+.grid-section {
+    background-image: url('\Users\User\Documents\Pag Web Videojuego\Img\Tower2.png');
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+    .grid-section .item {
+        background-image: url('\Users\User\Documents\Pag Web Videojuego\Img\Sand.png');
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+/* Mapa */
+.map-section {
+    background-image: url('\Users\User\Documents\Pag Web Videojuego\Img\PoisonSwamp.png');
+    display: flex;
+    align-items: center;
+    background-color: #5a456e;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: right; /* Posiciona la imagen de fondo a la derecha */
+}
+
+
+.map {
+    
+  flex: 1;
+  text-align: center;
+}
+
+.map-description {
+  flex: 0.5;
+  padding: 20px;
+}
+
+/* Contactanos */
+.container {
+    background-color: #53644d;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+  display: flex;
+}
+
+.col-md-6 {
+  padding: 100px;
+}
+
+#titulo {
+  font-weight: bold;
+}
+
+.textbox-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.textbox {
+  width: 200%;
+  padding: 5px;
+}
+
+.multiline-textbox {
+  height: 200px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+@import url('file:///C:\Users\User\Documents\Video Game Website\styles.css');
